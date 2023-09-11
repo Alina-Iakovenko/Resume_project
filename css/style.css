@@ -1,0 +1,273 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+/* main content */
+
+.main-content {
+  padding: 44px;
+  width: 100%;
+}
+.main-content-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 0 8px 0;
+}
+
+/* about me */
+.my-profession {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  font-style: normal;
+  margin: 0 0 18px 0;
+}
+
+.my-name {
+  color: #000;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55px;
+  margin: 0 0 28px 0;
+}
+
+.my-descr {
+  color: #595959;
+  font-size: 14px;
+  line-height: 24px;
+  font-style: normal;
+  width: 525px;
+}
+
+.about-me-container {
+  margin-bottom: 64px;
+}
+
+/* projects */
+.projects-container {
+  margin-bottom: 48px;
+}
+.project-list {
+  padding: 0 0 0 16px;
+  margin: 0;
+}
+
+.project-item {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.project-item-link {
+  color: #005fff;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+
+.project-item-descr {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* work-experience */
+
+.work-experience-container {
+  margin-bottom: 44px;
+}
+.work-experience-item {
+  margin: 16px;
+}
+
+.work-experience-position {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+.work-experience-company {
+  color: #6d9bf5;
+}
+.period {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  margin: 12px 0 8px 0;
+}
+.work-duties {
+  color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+}
+.work-duties-list {
+  padding: 0 0 0 16px;
+  margin: 0;
+}
+
+/* education */
+
+.education-container {
+  margin: 20px 0 40px 16px;
+}
+
+.education-place {
+  color: #6d9bf5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+.educational-specialty {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 12px 0 12px 0;
+}
+
+/* sidebar */
+.sidebar {
+  width: 370px;
+  background: #E0FCE0;
+  flex-shrink: 0;
+}
+.my_photo {
+  margin-top: 40px;
+}
+
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container,
+.language-container {
+  margin: 48px 0px 0px 48px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+/* contacts */
+.contacts-type {
+  font-style: normal;
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.contacts-item {
+  margin: 0;
+}
+
+.contacts-number {
+  color: #161d2a;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 8px;
+}
+
+.contacts-email {
+  color: #2979ff;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 8px;
+}
+
+/* skills */
+.skills-list {
+  margin: 0;
+  padding: 0 0 0 16px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.skills-list-item {
+  color: #6d9bf5;
+}
+.skills-list-text {
+  color: #161d2a;
+}
+
+@media screen and (max-width: 1270px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .main-content {
+    padding: 30px;
+  }
+
+  .my_photo {
+    width: 250px;
+  }
+  .sidebar {
+    width: 250px;
+  }
+  .contacts-container,
+  .tech-skills-container,
+  .soft-skills-container,
+  .language-container {
+    margin: 20px 0px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+  .my_photo {
+    margin: 5px;
+  }
+  .sidebar {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .sidebar-content1 {
+    margin: 0;
+    display: flex;
+  }
+  .sidebar-content2 {
+    display: flex;
+    /* align-items: center; */
+  }
+
+  .sidebar-title {
+    margin: 5px;
+  }
+}
