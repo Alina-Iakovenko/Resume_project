@@ -75,7 +75,7 @@ body {
 }
 
 .project-item-link {
-  color: #005fff;
+  color: #72BB72;
   font-size: 14px;
   font-style: normal;
   line-height: 24px;
@@ -108,7 +108,7 @@ body {
   margin: 0;
 }
 .work-experience-company {
-  color: #6d9bf5;
+  color: #72BB72;
 }
 .period {
   color: #a8a8a8;
@@ -137,7 +137,7 @@ body {
 }
 
 .education-place {
-  color: #6d9bf5;
+  color: #72BB72;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -198,7 +198,7 @@ body {
 }
 
 .contacts-email {
-  color: #2979ff;
+  color: #72BB72;
   font-size: 14px;
   line-height: 24px;
   margin-left: 8px;
@@ -213,7 +213,7 @@ body {
 }
 
 .skills-list-item {
-  color: #6d9bf5;
+  color: #72BB72;
 }
 .skills-list-text {
   color: #161d2a;
