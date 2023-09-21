@@ -175,7 +175,8 @@ body {
 .contacts-container,
 .tech-skills-container,
 .soft-skills-container,
-.language-container {
+.language-container,
+ .downloading-container{
   margin: 48px 0px 0px 48px;
 }
 
@@ -227,6 +228,14 @@ body {
   color: #72BB72;
 }
 .skills-list-text {
+  color: #161d2a;
+}
+
+.downloading-item {
+  margin: 0;
+  padding: 0 0 0 16px;
+  line-height: 24px;
+  font-size: 12px;
   color: #161d2a;
 }
 
