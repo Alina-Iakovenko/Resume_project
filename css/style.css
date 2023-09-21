@@ -161,7 +161,17 @@ body {
   line-height: 24px;
   font-weight: 400;
 }
-
+/* achievements */
+.achievements-container {
+  margin: 20px 0 40px 16px;
+}
+.achievements {
+color: #595959;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
+}
 /* sidebar */
 .sidebar {
   width: 370px;
